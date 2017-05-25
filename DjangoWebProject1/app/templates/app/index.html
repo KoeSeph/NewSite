@@ -3,30 +3,28 @@
 {% block content %}
 
 <div class="jumbotron">
-    <h1>Leanne is a great person</h1>
-    <p class="lead">How is she so nice? I dont know! She just is. .</p>
-    <p><a href="https://www.djangoproject.com/" class="btn btn-primary btn-large">Be nice like her! &raquo;</a></p>
+    <h1>Geranios Cleaning Company</h1>
+    <p class="lead">Commercial and Residential Cleaning Services</p>
+    <p><a href={% url 'contact'%} class="btn btn-primary btn-large">Free Estimate! &raquo;</a></p>
 </div>
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Geranios Cleaning</h2>
+        <h2>Cleaning Services</h2>
         <p>
-            We are a small cleaning business based in madison. All our employees are professional cleaners with over 20 years of experience. We are focused on providing the best service and quality, 
-            and that's why our customers love us. We are fully insured and bonded, so you can trust that we will treat your property with the outmost
-            respect and always leave everything better than when we arrived. 
+            We offer everything from private home cleaning to large offices or apartment buldings! 
         </p>
         <p><a class="btn btn-default" href={% url 'contact' %}>Get a free estimate! &raquo;</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>The Python Package Index is a repository of software for the Python programming language.</p>
+        <h2>Carpet Cleaning</h2>
+        <p>We also have our very own carpet cleaning services! </p>
         <p><a class="btn btn-default" href="https://pypi.org/">Learn more &raquo;</a></p>
     </div>
     <div class="col-md-4">
-        <h2>Microsoft Azure</h2>
-        <p>You can easily publish to Microsoft Azure using Visual Studio. Find out how you can host your application using a free trial today.</p>
-        <p><a class="btn btn-default" href="http://azure.microsoft.com">Learn more &raquo;</a></p>
+        <h2>About us</h2>
+        <p>Learn more about the owners and the services we provide!.</p>
+        <p><a class="btn btn-default" href={% url 'about'%}>Learn more &raquo;</a></p>
     </div>
 </div>
 
