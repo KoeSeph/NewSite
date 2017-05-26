@@ -26,7 +26,7 @@ SECRET_KEY = '4a6ae91e-ca35-4904-8a52-c2a1cca72d5d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['http://geranios.azurewebsites.net/' , 'http://geranioscleaning.com']
+ALLOWED_HOSTS = [ * ]
 
 
 # Application definition
