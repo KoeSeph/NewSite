@@ -1,0 +1,31 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Geranios Cleaning Company</h1>
+    <p class="lead">Commercial and Residential Cleaning Services</p>
+    <p><a href={% url 'contact'%} class="btn btn-primary btn-large">Free Estimate! &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Cleaning Services</h2>
+        <p>
+            We offer everything from private home cleaning to large offices or apartment buldings! 
+        </p>
+        <p><a class="btn btn-default" href={% url 'contact' %}>Get a free estimate! &raquo;</a></p>
+    </div>
+   <!-- <div class="col-md-4">
+        <h2>Carpet Cleaning</h2>
+        <p>We also have our very own carpet cleaning services! </p>
+        <p><a class="btn btn-default" href="https://pypi.org/">Learn more &raquo;</a></p>
+    </div> -->
+    <div class="col-md-4">
+        <h2>About us</h2>
+        <p>Learn more about the owners and the services we provide!.</p>
+        <p><a class="btn btn-default" href={% url 'about'%}>Learn more &raquo;</a></p>
+    </div>
+</div>
+
+{% endblock %}

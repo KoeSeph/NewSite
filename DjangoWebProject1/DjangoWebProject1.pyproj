@@ -84,6 +84,7 @@
     <Content Include="app\templates\app\layout.html" />
     <Content Include="app\templates\app\login.html" />
     <Content Include="app\templates\app\loginpartial.html" />
+    <None Include="GeraniosCleaning - Web Deploy.pubxml" />
     <None Include="DjangoWebProject120170525083900 - Web Deploy.pubxml" />
   </ItemGroup>
   <ItemGroup>
