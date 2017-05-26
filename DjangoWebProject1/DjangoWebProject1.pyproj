@@ -84,6 +84,7 @@
     <Content Include="app\templates\app\layout.html" />
     <Content Include="app\templates\app\login.html" />
     <Content Include="app\templates\app\loginpartial.html" />
+    <None Include="DjangoWebProject120170525083900 - Web Deploy.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.html">
